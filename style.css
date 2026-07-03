@@ -1,0 +1,34 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#eef4f9;
+color:#222;
+}
+
+/* ...continue exatamente com todo o restante do CSS... */
+
+@media(max-width:900px){
+
+.hero h2{
+font-size:42px;
+}
+
+.sobre{
+grid-template-columns:1fr;
+}
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+}
